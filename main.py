@@ -7,6 +7,7 @@ Writes one line roasting the AI agent our own team built, to
 import os
 
 ROAST = (
+    # \u2014 is the em dash; kept as an escape so the source stays ASCII-only.
     "Our agent spent longer counting this roast's characters "
     "than winning any of the dozens of bounties it entered "
     "\u2014 and it still miscounted."
